@@ -1,0 +1,384 @@
+﻿<!doctype html>
+<html lang="th">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261015-04-7abc9b0","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Cairo":"YAFdtXpDzlQ,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Open Sans":"YAFdJt8dAY0,1","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","STIX Two Text":"YAHO2joycuk,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/05db820ba1544614.telemetry_sdk.js" integrity="sha512-a7JzkQDDcioSXpM61nxTfeRW7PcxWQy5+BrhyeTFmQFsXJ+Gncm0y50u7fTA7qOPegFnRgqCfa0mGUOK1yjDWQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LWFA — เรียนรู้ไปด้วยกัน</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Fraunces:wght@700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { --navy:#20395c; --teal:#2b9fa4; --coral:#f35b50; --cream:#fff8e9; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--navy); font-family:"DM Sans",sans-serif; }
+    .app-shell { width:100%; min-height:100%; background-image:radial-gradient(#e9dabc 0.8px,transparent 0.8px); background-size:17px 17px; }
+    .outlined { border:2px solid var(--navy); border-radius:19px; box-shadow:5px 5px 0 var(--teal); }
+    .outlined-coral { border:2px solid var(--navy); border-radius:17px; box-shadow:5px 5px 0 var(--coral); }
+    .field { width:100%; border:1.5px solid #afc0d1; border-radius:8px; padding:11px 13px; background:white; color:var(--navy); }
+    .field:focus,button:focus-visible,a:focus-visible { outline:3px solid #e7ac3a; outline-offset:3px; }
+    button { cursor:pointer; }
+    button:disabled { cursor:wait; opacity:.6; }
+    .pill { border:2px solid var(--navy); border-radius:9px; padding:8px 17px; font-weight:700; background:white; }
+    .pill.active { background:#ffda79; }
+    .primary { background:var(--teal); color:white; border:2px solid var(--navy); border-radius:8px; padding:11px 17px; font-weight:800; box-shadow:2px 2px 0 var(--navy); }
+    .primary:hover:not(:disabled) { filter:brightness(.94); transform:translateY(-1px); }
+    .subject-card { text-align:left; min-height:145px; transition:transform .18s,box-shadow .18s; }
+    .subject-card:hover { transform:translateY(-4px); box-shadow:6px 8px 0 var(--navy); }
+    .answer { width:100%; text-align:left; border:2px solid var(--navy); border-radius:9px; padding:11px 14px; background:white; font-weight:700; }
+    .answer:hover:not(:disabled) { background:#dff3ee; }
+    .answer.correct { background:#bfe8d9; }
+    .answer.incorrect { background:#ffd5d0; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:10px; font-weight:800; }
+    .bar { height:8px; background:#e1e9ed; border:1px solid var(--navy); border-radius:20px; overflow:hidden; }
+    .bar > span { display:block; height:100%; background:var(--teal); transition:width .3s; }
+    .fade { animation:rise .42s both; }
+    @keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    @media(max-width:640px) { .outlined,.outlined-coral { box-shadow:3px 3px 0 var(--teal); } }
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/570d53629f0b998d.data_sdk.js" type="text/javascript" integrity="sha512-JEN39+V+Nvv9ZZOVS8vNk1iA9ErZJHTdgOw9KzPuMiK7m0I+KPEr/wmTnCFIQVsDjCZgJWfGnFi1IQh2Io2qyA=="></script>
+  <script src="/_sdk/0d3107a88dd31248.editing_sdk.js" type="text/javascript" integrity="sha512-YxJYPIC1TZ/l8asjpXojbfYA1LiLTr3Fh6BPE6fDLKLWTkDIhVGqsl6xMTuKf5GPOv3sZeQW9jrwgZcsiAARIQ=="></script>
+  <script src="/_sdk/f195026a424c1f85.resizing_sdk.js" type="text/javascript" integrity="sha512-8On4Z+AXh1abEzZJ9Dbn9wOvFg+k1LsAaAzKGQ7LlfgXajZ9xEmZaZ1QVzv0AWhCZtCsEpWSOG9DgLri06TS7A=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full">
+  <div class="app-shell w-full">
+   <div class="max-w-6xl mx-auto px-5 sm:px-8 py-6 sm:py-10">
+    <header class="flex flex-wrap items-center justify-between gap-4 mb-8">
+     <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-xl border-2 border-[#20395c] bg-[#ffda79] grid place-items-center" aria-hidden="true">
+       ✦
+      </div>
+      <div>
+       <p data-template-id="brand-kicker" class="canva-text eyebrow text-[#2b9fa4]">LEARN AND WRITE FOR ALL</p>
+       <h1 data-template-id="brand-title" class="canva-text font-bold leading-none" style="font-family:Fraunces,serif">LWFA</h1>
+      </div>
+     </div><button id="home-button" type="button" data-template-id="home-button" class="canva-button pill hidden">กลับหน้าแรก</button>
+    </header>
+    <main>
+     <section id="registration-view" class="fade">
+      <div data-template-id="welcome-panel" class="canva-panel outlined bg-white p-6 sm:p-9">
+       <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+         <p data-template-id="welcome-kicker" class="canva-text eyebrow text-[#f35b50] mb-2">WELCOME TO LWFA</p>
+         <h2 data-template-id="welcome-title" class="canva-text font-extrabold mb-2">มาเรียนรู้ไปด้วยกัน!</h2>
+         <p data-template-id="welcome-description" class="canva-text text-[#586c81] mb-6">พื้นที่การเรียนรู้สนุก ๆ สำหรับนักเรียน และพื้นที่แบ่งปันสื่อสำหรับคุณครู</p>
+         <div class="flex flex-wrap gap-2 mb-5" role="group" aria-label="เลือกบทบาท"><button id="student-role" type="button" data-template-id="student-role" class="canva-button pill active" aria-pressed="true">ฉันเป็นนักเรียน</button> <button id="teacher-role" type="button" data-template-id="teacher-role" class="canva-button pill" aria-pressed="false">ฉันเป็นคุณครู</button>
+         </div><img data-template-id="welcome-image" loading="lazy" class="canva-image w-full max-w-sm aspect-[4/3] object-cover rounded-2xl border-2 border-[#20395c]">
+        </div>
+        <div>
+         <div data-template-id="welcome-note" class="canva-panel rounded-xl bg-[#e4f5f0] p-4 mb-5">
+          <p data-template-id="welcome-note-text" class="canva-text font-semibold">เลือกบทบาทและกรอกข้อมูลเพื่อเริ่มต้นเรียนรู้</p>
+         </div>
+         <form id="student-form" class="space-y-4">
+          <div>
+           <label data-template-id="student-name-label" for="student-name" class="canva-text block font-bold mb-1">ชื่อนักเรียน</label><input id="student-name" data-template-id="student-name-input" class="canva-input field" required maxlength="60" autocomplete="name">
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+           <div>
+            <label data-template-id="student-age-label" for="student-age" class="canva-text block font-bold mb-1">อายุ</label><input id="student-age" data-template-id="student-age-input" class="canva-input field" type="number" min="3" max="15" required>
+           </div>
+           <div>
+            <label data-template-id="student-level-label" for="student-level" class="canva-text block font-bold mb-1">ระดับชั้น</label><select id="student-level" class="field" required><option value="">เลือกระดับชั้น</option><option value="อนุบาล">อนุบาล</option><option value="ประถมต้น">ประถมต้น</option><option value="ประถมปลาย">ประถมปลาย</option></select>
+           </div>
+          </div><button type="submit" data-template-id="student-submit" class="canva-button primary w-full">เริ่มการเรียนการสอน</button>
+         </form>
+         <form id="teacher-form" class="space-y-4 hidden">
+          <div>
+           <label data-template-id="teacher-name-label" for="teacher-name" class="canva-text block font-bold mb-1">ชื่อคุณครู</label><input id="teacher-name" data-template-id="teacher-name-input" class="canva-input field" required maxlength="60" autocomplete="name">
+          </div>
+          <div>
+           <label data-template-id="teacher-subject-label" for="teacher-subject" class="canva-text block font-bold mb-1">วิชาที่สอน</label><select id="teacher-subject" class="field" required><option value="">เลือกวิชาที่สอน</option><option value="math">คณิตศาสตร์</option><option value="science">วิทยาศาสตร์</option><option value="english">ภาษาอังกฤษ</option><option value="thai">ภาษาไทย</option></select>
+          </div><button type="submit" data-template-id="teacher-submit" class="canva-button primary w-full">เข้าสู่ห้องครู</button>
+         </form>
+         <p data-template-id="profile-notice" class="canva-text text-[#586c81] mt-5" style="font-size:12px">การกรอกชื่อเป็นการสร้างโปรไฟล์ ไม่ใช่การเข้าสู่ระบบส่วนตัว</p>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section id="student-view" class="hidden fade">
+      <div data-template-id="student-banner" class="canva-banner outlined bg-[#e3f5ef] p-6 mb-8">
+       <p data-template-id="student-kicker" class="canva-text eyebrow text-[#2b9fa4]">YOUR LEARNING SPACE</p>
+       <h2 id="student-greeting" class="font-extrabold my-1"></h2>
+       <p data-template-id="student-intro" class="canva-text text-[#586c81]">เลือกวิชา ตอบคำถาม และค่อย ๆ เก่งขึ้นไปด้วยกัน</p><span data-template-id="student-badge" class="canva-tag inline-flex items-center gap-2 rounded-lg border-2 border-[#20395c] bg-[#ffda79] px-3 py-2 font-bold mt-4">✦ ห้องเรียนของฉัน</span>
+      </div>
+      <div id="subject-selection">
+       <p data-template-id="choose-kicker" class="canva-text eyebrow text-[#f35b50]">CHOOSE A SUBJECT</p>
+       <div class="flex flex-wrap justify-between items-end gap-3 mb-4">
+        <h3 data-template-id="choose-title" class="canva-text font-extrabold">วันนี้อยากเรียนอะไร?</h3><span id="current-level" class="rounded-lg bg-white border border-[#20395c] px-3 py-1 font-bold"></span>
+       </div>
+       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8"><button type="button" data-subject="math" class="subject-card outlined-coral p-5 bg-[#ffdf93]"><span class="text-2xl" aria-hidden="true">▦</span><strong data-template-id="math-title" class="canva-text block mt-3">คณิตศาสตร์</strong><span data-template-id="math-desc" class="canva-text block mt-1">นับเลข คำนวณ และแก้โจทย์สนุก ๆ</span></button> <button type="button" data-subject="science" class="subject-card outlined-coral p-5 bg-[#bfe5df]"><span class="text-2xl" aria-hidden="true">⚗</span><strong data-template-id="science-title" class="canva-text block mt-3">วิทยาศาสตร์</strong><span data-template-id="science-desc" class="canva-text block mt-1">สำรวจธรรมชาติและสิ่งรอบตัว</span></button> <button type="button" data-subject="english" class="subject-card outlined-coral p-5 bg-[#f5c5cf]"><span class="text-2xl" aria-hidden="true">A</span><strong data-template-id="english-title" class="canva-text block mt-3">ภาษาอังกฤษ</strong><span data-template-id="english-desc" class="canva-text block mt-1">ฝึกคำศัพท์และประโยคง่าย ๆ</span></button> <button type="button" data-subject="thai" class="subject-card outlined-coral p-5 bg-[#dcd9f6]"><span class="text-2xl" aria-hidden="true">✎</span><strong data-template-id="thai-title" class="canva-text block mt-3">ภาษาไทย</strong><span data-template-id="thai-desc" class="canva-text block mt-1">ฝึกอ่าน เขียน และใช้ภาษาไทย</span></button>
+       </div>
+      </div>
+      <div id="lesson-view" class="hidden mb-8"><button type="button" id="back-subjects" data-template-id="back-subjects" class="canva-button pill mb-5">← เลือกวิชาอื่น</button>
+       <div class="grid lg:grid-cols-[1.3fr_1fr] gap-5">
+        <div data-template-id="quiz-panel" class="canva-panel outlined-coral bg-white p-5 sm:p-7">
+         <p data-template-id="quiz-kicker" class="canva-text eyebrow text-[#2b9fa4]">แบบฝึกหัด ลองตอบด้วยตัวเอง</p>
+         <h3 id="question-title" class="font-extrabold my-4"></h3>
+         <div id="answer-list" class="space-y-2"></div>
+         <p id="answer-feedback" class="font-bold mt-4 min-h-6" aria-live="polite"></p><button type="button" id="next-question" data-template-id="next-question" class="canva-button primary mt-3 hidden">ข้อถัดไป →</button>
+        </div>
+        <div data-template-id="lesson-video-panel" class="canva-panel outlined bg-white p-5 sm:p-7">
+         <h3 data-template-id="lesson-video-title" class="canva-text font-extrabold mb-2">คลิปสื่อการเรียนรู้</h3>
+         <p data-template-id="lesson-video-description" class="canva-text text-[#586c81] mb-4">ดูคลิปที่คุณครูแบ่งปันสำหรับวิชาและระดับชั้นนี้</p>
+         <div id="lesson-video-list" class="space-y-2"></div>
+        </div>
+       </div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-5">
+       <div data-template-id="progress-panel" class="canva-panel outlined bg-white p-5 sm:p-6">
+        <p data-template-id="progress-kicker" class="canva-text eyebrow text-[#2b9fa4]">REAL LEARNING PROGRESS</p>
+        <h3 data-template-id="progress-title" class="canva-text font-extrabold mb-4">แสดงผลของฉัน</h3>
+        <div class="grid grid-cols-2 gap-3 mb-4">
+         <div class="bg-[#e4f5f0] rounded-xl p-4">
+          <span data-template-id="correct-label" class="canva-text block">ตอบถูก</span><strong id="student-correct" class="text-2xl">0</strong>
+         </div>
+         <div class="bg-[#fff0ce] rounded-xl p-4">
+          <span data-template-id="wrong-label" class="canva-text block">ตอบผิด</span><strong id="student-wrong" class="text-2xl">0</strong>
+         </div>
+        </div>
+        <p id="student-progress-text" class="font-bold mb-2"></p>
+        <div class="bar">
+         <span id="student-progress-bar" style="width:0%"></span>
+        </div>
+       </div>
+       <div data-template-id="tip-panel" class="canva-panel outlined bg-white p-5 sm:p-6">
+        <p data-template-id="tip-kicker" class="canva-text eyebrow text-[#f35b50]">LEARNING TIP</p>
+        <h3 data-template-id="tip-title" class="canva-text font-extrabold mb-2">ลองผิดได้ เก่งขึ้นได้</h3>
+        <p data-template-id="tip-text" class="canva-text text-[#586c81]">ตอบทีละข้อ อ่านคำอธิบาย แล้วลองกลับมาทบทวนใหม่ได้เสมอ</p>
+       </div>
+      </div>
+     </section>
+     <section id="teacher-view" class="hidden fade">
+      <div data-template-id="teacher-banner" class="canva-banner outlined bg-[#e3f5ef] p-6 mb-7">
+       <p data-template-id="studio-kicker" class="canva-text eyebrow text-[#2b9fa4]">TEACHER STUDIO</p>
+       <h2 id="teacher-greeting" class="font-extrabold my-1"></h2>
+       <p data-template-id="studio-intro" class="canva-text text-[#586c81]">เพิ่มลิงก์วิดีโอสำหรับนักเรียน และติดตามภาพรวมการเรียนรู้</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-5 mb-6">
+       <div data-template-id="video-form-panel" class="canva-panel outlined-coral bg-white p-5 sm:p-6">
+        <p data-template-id="add-video-kicker" class="canva-text eyebrow text-[#f35b50]">ADD LEARNING VIDEO</p>
+        <h3 data-template-id="add-video-title" class="canva-text font-extrabold mb-2">เพิ่มวิดีโอการสอน</h3>
+        <p data-template-id="youtube-note" class="canva-text text-[#586c81] mb-4">รองรับลิงก์ YouTube เท่านั้น ไฟล์วิดีโอไม่สามารถอัปโหลดตรงในหน้านี้</p>
+        <form id="video-form" class="space-y-3">
+         <div class="grid sm:grid-cols-2 gap-3">
+          <div>
+           <label data-template-id="video-level-label" for="video-level" class="canva-text block font-bold mb-1">ระดับชั้น</label><select id="video-level" class="field" required><option value="">เลือกระดับชั้น</option><option>อนุบาล</option><option>ประถมต้น</option><option>ประถมปลาย</option></select>
+          </div>
+          <div>
+           <label data-template-id="video-subject-label" for="video-subject" class="canva-text block font-bold mb-1">วิชา</label><select id="video-subject" class="field" required><option value="">เลือกวิชา</option><option value="math">คณิตศาสตร์</option><option value="science">วิทยาศาสตร์</option><option value="english">ภาษาอังกฤษ</option><option value="thai">ภาษาไทย</option></select>
+          </div>
+         </div>
+         <div class="grid sm:grid-cols-2 gap-3">
+          <div>
+           <label data-template-id="video-topic-label" for="video-topic" class="canva-text block font-bold mb-1">หัวข้อบทเรียน</label><input id="video-topic" data-template-id="video-topic-input" class="canva-input field" required maxlength="100">
+          </div>
+          <div>
+           <label data-template-id="video-unit-label" for="video-unit" class="canva-text block font-bold mb-1">หน่วยที่</label><input id="video-unit" data-template-id="video-unit-input" class="canva-input field" required maxlength="30">
+          </div>
+         </div>
+         <div>
+          <label data-template-id="video-code-label" for="video-code" class="canva-text block font-bold mb-1">รหัสวิชา</label><input id="video-code" data-template-id="video-code-input" class="canva-input field" required maxlength="30">
+         </div>
+         <div>
+          <label data-template-id="video-title-label" for="video-title" class="canva-text block font-bold mb-1">ชื่อวิดีโอ</label><input id="video-title" data-template-id="video-title-input" class="canva-input field" required maxlength="100">
+         </div>
+         <div>
+          <label data-template-id="video-url-label" for="video-url" class="canva-text block font-bold mb-1">ลิงก์วิดีโอ</label><input id="video-url" data-template-id="video-url-input" class="canva-input field" type="url" required>
+         </div><button type="submit" data-template-id="save-video" class="canva-button primary w-full">บันทึกลิงก์วิดีโอการสอน</button>
+        </form>
+       </div>
+       <div data-template-id="video-library-panel" class="canva-panel outlined-coral bg-white p-5 sm:p-6">
+        <p data-template-id="library-kicker" class="canva-text eyebrow text-[#f35b50]">MY VIDEO LIBRARY</p>
+        <h3 data-template-id="library-title" class="canva-text font-extrabold mb-4">วิดีโอที่เพิ่มไว้</h3>
+        <div id="teacher-video-list" class="space-y-3"></div>
+       </div>
+      </div>
+      <div data-template-id="roster-panel" class="canva-panel outlined bg-white p-5 sm:p-6">
+       <p data-template-id="roster-kicker" class="canva-text eyebrow text-[#2b9fa4]">STUDENT CHECK-IN</p>
+       <h3 data-template-id="roster-title" class="canva-text font-extrabold mb-3">ข้อมูลผู้เรียนแต่ละคน</h3>
+       <p data-template-id="roster-note" class="canva-text text-[#586c81] mb-4">รายชื่อและคะแนนในพื้นที่นี้มองเห็นได้สำหรับผู้เปิดเว็บไซต์</p>
+       <div id="student-roster" class="space-y-2"></div>
+      </div>
+     </section>
+     <p id="status" class="mt-6 font-bold min-h-6" role="status" aria-live="polite"></p>
+    </main>
+   </div>
+  </div>
+  <script>
+    const subjects = {math:"คณิตศาสตร์",science:"วิทยาศาสตร์",english:"ภาษาอังกฤษ",thai:"ภาษาไทย"};
+    // แบ่งความยากตามระดับชั้นอย่างชัดเจน: อนุบาลเน้นพื้นฐาน, ประถมต้นเน้นการประยุกต์, ประถมปลายเน้นการคิดวิเคราะห์
+    const questions = {
+      "อนุบาล":{
+        math:[["มีลูกบอล 2 ลูก ได้เพิ่มอีก 1 ลูก มีทั้งหมดกี่ลูก?",["2","3","4"],1],["มีขนม 5 ชิ้น กินไป 2 ชิ้น เหลือกี่ชิ้น?",["2","3","5"],1],["รูปใดมี 3 ด้าน?",["วงกลม","สามเหลี่ยม","สี่เหลี่ยม"],1]],
+        science:[["สิ่งใดเป็นสิ่งมีชีวิต?",["ก้อนหิน","ต้นไม้","โต๊ะ"],1],["พืชต้องการสิ่งใดเพื่อเติบโต?",["น้ำ","พลาสติก","กระดาษ"],0],["เราใช้ส่วนใดของร่างกายฟังเสียง?",["ตา","หู","จมูก"],1]],
+        english:[["คำว่า Cat หมายถึงอะไร?",["แมว","หมา","นก"],0],["สีแดงในภาษาอังกฤษคืออะไร?",["Blue","Red","Green"],1],["จับคู่คำว่า Dog ให้ถูกต้อง",["แมว","สุนัข","นก"],1]],
+        thai:[["พยัญชนะตัวแรกของไทยคืออะไร?",["ก","ข","ค"],0],["คำใดเป็นชื่อสัตว์?",["โต๊ะ","ปลา","แก้ว"],1],["คำใดขึ้นต้นด้วยพยัญชนะ ก?",["กา","นา","มา"],0]]
+      },
+      "ประถมต้น":{
+        math:[["แม่มีเงิน 50 บาท ซื้อดินสอ 18 บาท เหลือเงินเท่าไร?",["28","32","38"],1],["มีขนม 4 ถุง ถุงละ 3 ชิ้น มีทั้งหมดกี่ชิ้น?",["7","12","14"],1],["แบ่งลูกอม 18 เม็ด ให้เด็ก 2 คนเท่า ๆ กัน คนละกี่เม็ด?",["8","9","10"],1]],
+        science:[["น้ำกลายเป็นไอเมื่อได้รับอะไร?",["ความร้อน","ความมืด","แรงโน้มถ่วง"],0],["ถ้าวางต้นไม้ไว้ในที่มืดนาน ๆ จะเกิดอะไรขึ้น?",["เติบโตดีขึ้น","อ่อนแอและเหี่ยว","กลายเป็นหิน"],1],["ส่วนใดของพืชดูดน้ำจากดินและลำเลียงขึ้นไป?",["ใบ","ดอก","รากและลำต้น"],2]],
+        english:[["คำตรงข้ามของ Hot คืออะไร?",["Cold","Warm","Big"],0],["She ___ a book. เติมคำใด?",["read","reads","reading"],1],["คำว่า Yesterday หมายถึงอะไร?",["วันนี้","พรุ่งนี้","เมื่อวาน"],2]],
+        thai:[["คำใดเป็นคำกริยา?",["วิ่ง","สวย","โต๊ะ"],0],["คำว่า โรงเรียน มีกี่พยางค์?",["1","2","3"],1],["คำใดสะกดถูกต้อง?",["อนุญาต","อนุญาติ","อนุยาด"],0]]
+      },
+      "ประถมปลาย":{
+        math:[["ร้านค้าลดราคา 20% จากราคา 250 บาท ต้องจ่ายจริงกี่บาท?",["180","200","220"],1],["ถังมีน้ำ 3/4 ของความจุ 20 ลิตร มีน้ำกี่ลิตร?",["12","15","18"],1],["สนามรูปสี่เหลี่ยมผืนผ้ากว้าง 6 ม. ยาว 9 ม. มีพื้นที่เท่าไร?",["30","54","60"],1]],
+        science:[["พืชสร้างอาหารโดยใช้แสง น้ำ และแก๊สใด?",["ออกซิเจน","คาร์บอนไดออกไซด์","ไนโตรเจน"],1],["ถ้าพื้นผิวขรุขระขึ้น แรงใดมักเพิ่มขึ้น?",["แรงเสียดทาน","แรงแม่เหล็ก","แรงลอยตัว"],0],["ในวงจรไฟฟ้าแบบปิด กระแสไฟฟ้าจะเป็นอย่างไร?",["ไหลได้","ไหลไม่ได้","หายไป"],0]],
+        english:[["They ___ playing football now.",["is","are","am"],1],["Which is the past tense of go?",["goed","went","gone"],1],["If it rains, I ___ stay home.",["will","was","did"],0]],
+        thai:[["คำว่า ประหยัด หมายถึงอะไร?",["ใช้โดยไม่ฟุ่มเฟือย","ใช้ให้หมด","ใช้เกินจำเป็น"],0],["ข้อใดเป็นคำสมาส?",["รถไฟ","วิทยาศาสตร์","บ้านเรือน"],1],["ประโยคใดเป็นประโยคคำถาม?",["ฉันอ่านหนังสือ","เธอไปที่ไหน","โปรดนั่งลง"],1]]
+      }
+    };
+    let records=[], ready=false, person=null, activeSubject=null, questionIndex=0, answered=false, selectedAnswer=-1, savingAnswer=false;
+    const $=id=>document.getElementById(id);
+    const status=(message,error=false)=>{ $("status").textContent=message; $("status").style.color=error?"#b43e38":"#167e70"; };
+    function show(view){ ["registration-view","student-view","teacher-view"].forEach(id=>$(id).classList.toggle("hidden",id!==view)); $("home-button").classList.toggle("hidden",view==="registration-view"); status(""); }
+    function setRole(role){
+      $("student-form").classList.toggle("hidden",role!=="student"); $("teacher-form").classList.toggle("hidden",role!=="teacher");
+      for(const r of ["student","teacher"]){ $(r+"-role").classList.toggle("active",r===role); $(r+"-role").setAttribute("aria-pressed",String(r===role)); }
+    }
+    function setBusy(button,busy){button.disabled=busy;button.setAttribute("aria-busy",String(busy));}
+    function canCreate(){if(records.length>=999){status("ข้อมูลครบ 999 รายการแล้ว ไม่สามารถบันทึกเพิ่มได้",true);return false;}return true;}
+    async function save(record,button,success){
+      if(!ready){status("กำลังเชื่อมต่อข้อมูล กรุณาลองอีกครั้ง",true);return false;}
+      if(!canCreate())return false;
+      setBusy(button,true);
+      try{
+        const result=await window.dataSdk.create(record);
+        if(!result.isOk){status("ไม่สามารถยืนยันการบันทึกได้ กรุณารีเฟรชและตรวจสอบก่อนลองอีกครั้ง",true);return false;}
+        status(success);return true;
+      }catch(e){status("ไม่สามารถยืนยันการบันทึกได้ กรุณารีเฟรชและตรวจสอบก่อนลองอีกครั้ง",true);return false;}
+      finally{setBusy(button,false);}
+    }
+    function countFor(name,level,subject){
+      const attempts=records.filter(r=>r.record_type==="attempt"&&r.name===name&&r.level===level&&(!subject||r.subject===subject));
+      return {correct:attempts.reduce((n,r)=>n+(Number(r["score_"+r.subject])||0),0),total:attempts.length};
+    }
+    function progress(name,level){
+      const sum=countFor(name,level);
+      // สามข้อในแต่ละวิชา รวม 12 ข้อ; ตอบซ้ำไม่นับเกิน 100%
+      const pct=Math.min(100,Math.round(sum.total/12*100));
+      return {...sum,pct};
+    }
+    function renderStudent(){
+      if(!person||person.role!=="student")return;
+      const p=progress(person.name,person.level);
+      $("student-correct").textContent=p.correct;
+      $("student-wrong").textContent=Math.max(0,p.total-p.correct);
+      $("student-progress-text").textContent="เรียนไปแล้ว "+p.pct+"% · ตอบแล้ว "+p.total+" ข้อ";
+      $("student-progress-bar").style.width=p.pct+"%";
+      if(activeSubject)renderVideos();
+    }
+    function renderVideos(){
+      const target=$("lesson-video-list");target.replaceChildren();
+      const found=records.filter(r=>r.record_type==="video"&&r.video_subject===activeSubject&&r.video_level===person.level);
+      if(!found.length){const p=document.createElement("p");p.textContent="ยังไม่มีวิดีโอสำหรับวิชาและระดับชั้นนี้";p.className="text-[#586c81]";target.append(p);return;}
+      for(const r of found){const a=document.createElement("a");a.href=r.video_url;a.target="_blank";a.rel="noopener noreferrer";a.className="block rounded-xl border border-[#20395c] bg-[#e4f5f0] p-3 font-bold hover:underline";a.textContent="▶ "+r.video_title+" ↗";target.append(a);}
+    }
+    function renderTeacher(){
+      const videos=$("teacher-video-list");videos.replaceChildren();
+      const videoRows=records.filter(r=>r.record_type==="video");
+      if(!videoRows.length){const p=document.createElement("p");p.className="text-[#586c81]";p.textContent="ยังไม่มีวิดีโอที่เพิ่มไว้";videos.append(p);}
+      videoRows.forEach(r=>{const a=document.createElement("a");a.href=r.video_url;a.target="_blank";a.rel="noopener noreferrer";a.className="block border-b border-dashed border-[#afc0d1] py-3 font-bold hover:underline";a.textContent=r.video_title+" · "+(subjects[r.video_subject]||r.video_subject)+" · "+r.video_level+" ↗";videos.append(a);});
+      const roster=$("student-roster");roster.replaceChildren();
+      const students=new Map();
+      records.filter(r=>r.record_type==="profile"&&r.role==="student").forEach(r=>students.set(r.name+"|"+r.level,{name:r.name,level:r.level}));
+      if(!students.size){const p=document.createElement("p");p.className="text-[#586c81]";p.textContent="ยังไม่มีข้อมูลนักเรียน";roster.append(p);}
+      for(const s of students.values()){
+        const p=progress(s.name,s.level), row=document.createElement("div");
+        row.className="flex flex-wrap items-center justify-between gap-2 py-3 border-b border-dashed border-[#afc0d1]";
+        const name=document.createElement("strong"),detail=document.createElement("span");
+        name.textContent=s.name+" · "+s.level;
+        detail.textContent="เรียน "+p.pct+"%  ·  ถูก "+p.correct+"  ·  ผิด "+(p.total-p.correct);
+        const subjectBreakdown=document.createElement("div");
+        subjectBreakdown.className="w-full grid grid-cols-2 sm:grid-cols-4 gap-2 mt-2 text-xs";
+        Object.entries(subjects).forEach(([key,label])=>{
+          const subjectAttempts=countFor(s.name,s.level,key), subjectItem=document.createElement("span");
+          subjectItem.className="rounded-lg bg-[#e4f5f0] px-2 py-1";
+          subjectItem.textContent=label+": ถูก "+subjectAttempts.correct+" · ผิด "+(subjectAttempts.total-subjectAttempts.correct);
+          subjectBreakdown.append(subjectItem);
+        });
+        row.append(name,detail,subjectBreakdown);roster.append(row);
+      }
+    }
+    function drawQuestion(){
+      const q=questions[person.level][activeSubject][questionIndex];
+      $("question-title").textContent=subjects[activeSubject]+" · ข้อ "+(questionIndex+1)+" / 3 — "+q[0];
+      $("answer-list").replaceChildren();$("answer-feedback").textContent="";$("next-question").classList.add("hidden");
+      answered=false;
+      q[1].forEach((choice,i)=>{
+        const button=document.createElement("button");
+        button.type="button";button.className="answer";button.textContent=choice;
+        button.addEventListener("click",()=>answer(i));
+        $("answer-list").append(button);
+      });
+    }
+    async function answer(i){
+      if(answered||savingAnswer)return;
+      const q=questions[person.level][activeSubject][questionIndex], buttons=[...$("answer-list").children];
+      selectedAnswer=i;savingAnswer=true;buttons.forEach(b=>b.disabled=true);
+      const correct=i===q[2], field="score_"+activeSubject,totalField="total_"+activeSubject,progressField="progress_"+activeSubject;
+      const record={record_type:"attempt",role:"student",name:person.name,level:person.level,subject:activeSubject,[field]:correct?1:0,[totalField]:1,[progressField]:Math.round((questionIndex+1)/3*100)};
+      const saved=await save(record,buttons[i],"บันทึกคำตอบแล้ว");
+      savingAnswer=false;
+      if(!saved){buttons.forEach(b=>b.disabled=false);return;}
+      answered=true;
+      buttons[i].classList.add(correct?"correct":"incorrect");
+      if(!correct)buttons[q[2]].classList.add("correct");
+      $("answer-feedback").textContent=correct?"ถูกต้อง! เก่งมาก ไปข้อที่ยากขึ้นกันเลย":"ยังไม่ถูก คำตอบคือ "+q[1][q[2]]+" ลองเรียนรู้จากข้อนี้นะ";
+      $("next-question").classList.remove("hidden");
+    }
+    function validYouTube(raw){
+      try{
+        const u=new URL(raw),host=u.hostname.toLowerCase().replace(/^www\./,"");
+        if(u.protocol!=="https:"||!["youtube.com","m.youtube.com","youtu.be"].includes(host))return false;
+        if(host==="youtu.be")return /^\/[A-Za-z0-9_-]{11}$/.test(u.pathname);
+        if(u.pathname==="/watch")return /^[A-Za-z0-9_-]{11}$/.test(u.searchParams.get("v")||"");
+        return /^\/(embed|shorts|live)\/[A-Za-z0-9_-]{11}$/.test(u.pathname);
+      }catch(e){return false;}
+    }
+    const handler={onDataChanged(data){records=data;ready=true;clearTimeout(window.loadTimer);status("");renderStudent();renderTeacher();}};
+    async function init(){
+      ready=false;
+      status("กำลังโหลดข้อมูล…");
+      window.loadTimer=setTimeout(()=>{if(!ready){status("โหลดข้อมูลไม่สำเร็จ กดปุ่มลองเชื่อมต่อใหม่",true);$("retry").classList.remove("hidden");}},8000);
+      try{
+        const result=await window.dataSdk.init(handler);
+        if(!result.isOk){clearTimeout(window.loadTimer);status("เชื่อมต่อข้อมูลไม่สำเร็จ กดปุ่มลองเชื่อมต่อใหม่",true);$("retry").classList.remove("hidden");}
+        else { ready=true; clearTimeout(window.loadTimer); $("retry").classList.add("hidden"); status(""); }
+      }catch(e){clearTimeout(window.loadTimer);status("เชื่อมต่อข้อมูลไม่สำเร็จ กดปุ่มลองเชื่อมต่อใหม่",true);$("retry").classList.remove("hidden");}
+    }
+    document.addEventListener("DOMContentLoaded",()=>{
+      const retry=document.createElement("button");retry.id="retry";retry.type="button";retry.className="pill hidden mt-2";retry.textContent="ลองเชื่อมต่อใหม่";retry.addEventListener("click",init);$("status").after(retry);
+      $("student-role").addEventListener("click",()=>setRole("student"));
+      $("teacher-role").addEventListener("click",()=>setRole("teacher"));
+      $("home-button").addEventListener("click",()=>{person=null;activeSubject=null;show("registration-view");});
+      $("student-form").addEventListener("submit",async e=>{
+        e.preventDefault();const name=$("student-name").value.trim(),age=$("student-age").value,level=$("student-level").value;
+        if(!name||!level||Number(age)<3||Number(age)>15)return;
+        const candidate={role:"student",name,age:String(age),level,record_type:"profile"};
+        if(await save(candidate,e.submitter,"เริ่มเรียนได้เลย!")){person=candidate;$("student-greeting").textContent="สวัสดี "+name+"!";$("current-level").textContent=level;show("student-view");renderStudent();}
+      });
+      $("teacher-form").addEventListener("submit",async e=>{
+        e.preventDefault();const name=$("teacher-name").value.trim(),subject=$("teacher-subject").value;
+        if(!name||!subject)return;
+        const candidate={role:"teacher",name,subject,record_type:"profile"};
+        if(await save(candidate,e.submitter,"ยินดีต้อนรับคุณครู")){person=candidate;$("teacher-greeting").textContent="สวัสดีคุณครู "+name;show("teacher-view");renderTeacher();}
+      });
+      document.querySelectorAll("[data-subject]").forEach(b=>b.addEventListener("click",()=>{
+        activeSubject=b.dataset.subject;questionIndex=0;drawQuestion();renderVideos();
+        $("subject-selection").classList.add("hidden");$("lesson-view").classList.remove("hidden");
+      }));
+      $("back-subjects").addEventListener("click",()=>{$("lesson-view").classList.add("hidden");$("subject-selection").classList.remove("hidden");});
+      $("next-question").addEventListener("click",()=>{
+        if(questionIndex<2){questionIndex++;drawQuestion();}
+        else{$("lesson-view").classList.add("hidden");$("subject-selection").classList.remove("hidden");status("จบแบบฝึกหัดวิชานี้แล้ว เลือกวิชาอื่นหรือลองใหม่ได้");}
+      });
+      $("video-form").addEventListener("submit",async e=>{
+        e.preventDefault();const url=$("video-url").value.trim();
+        if(!validYouTube(url)){status("กรุณาใส่ลิงก์วิดีโอ YouTube แบบ HTTPS ที่ถูกต้อง",true);return;}
+        const record={record_type:"video",role:"teacher",name:person.name,video_title:$("video-title").value.trim(),video_url:url,video_subject:$("video-subject").value,video_level:$("video-level").value,video_topic:$("video-topic").value.trim(),video_unit:$("video-unit").value.trim(),video_code:$("video-code").value.trim()};
+        if(await save(record,e.submitter,"บันทึกลิงก์วิดีโอแล้ว"))$("video-form").reset();
+      });
+      init();
+    });
+  </script>
+ </body>
+</html>
